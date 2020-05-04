@@ -10,8 +10,8 @@ window.onload = function() {
 };
 
 function update_time() {
-	/* Start Time: 2011.06.19 00:00 */
-	var start_itme = 31081999;
+	/* Start Time: 2002.05.05 00:00 */
+	var start_itme = 05052002;
 	var duration = parseInt((Date.now() / 1000 - start_itme ), 10);
 
 	var seconds = duration % 60;
