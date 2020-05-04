@@ -10,9 +10,9 @@ window.onload = function() {
 };
 
 function update_time() {
-	/* Start Time: 2002.05.05 00:00 */
-	var start_itme = 200200505;
-	var duration = parseInt((Date.now() / 2000 - start_itme ), 10);
+	/* Start Time: 2011.06.19 00:00 */
+	var start_itme = 31081999;
+	var duration = parseInt((Date.now() / 1000 - start_itme ), 10);
 
 	var seconds = duration % 60;
 	if(seconds < 10) {
@@ -43,5 +43,5 @@ function update_time() {
 }
 
 var Anniversary = function() {
-	
+
 };
