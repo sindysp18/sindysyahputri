@@ -12,7 +12,7 @@ window.onload = function() {
 function update_time() {
 	/* Start Time: 2002.05.05 00:00 */
 	var start_itme = 20020505;
-	var duration = parseInt((Date.now() /  - start_itme ), 10);
+	var duration = parseInt((Date.now() / - start_itme ), 10);
 
 	var seconds = duration % 60;
 	if(seconds < 10) {
